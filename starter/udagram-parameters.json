@@ -1,0 +1,14 @@
+[
+	{
+		"ParameterKey": "ProjectName",
+		"ParameterValue": "high-available-web-app"
+	},
+	{
+        "ParameterKey": "AutoScalingDesiredCapacity",
+        "ParameterValue": "1"
+    },
+	{
+		"ParameterKey": "LaunchTemplateImageId",
+		"ParameterValue": "ami-03eb6185d756497f8"
+	}
+]
