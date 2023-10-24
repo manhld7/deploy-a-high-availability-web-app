@@ -53,14 +53,13 @@ Resources:
             VolumeSize: '10'
         IamInstanceProfile:
           Name: !Ref InstanceProfile
-        KeyName: manhld7-key
         UserData:
           Fn::Base64: |
             #!/bin/bash
             apt-get update -y
             sudo apt-get install nginx -y
             service nginx start
-            echo "<h1 style="color:rgb(49, 151, 1)">it works! Udagram, Udacity</h1>" > /usr/share/nginx/html/index.html
+            echo "<h1>it works! Udagram, Udacity</h1>" > /usr/share/nginx/html/index.html
   InstanceRole:
     Type: AWS::IAM::Role
     Properties:

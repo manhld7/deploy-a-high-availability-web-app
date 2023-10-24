@@ -9,6 +9,6 @@
     },
 	{
 		"ParameterKey": "LaunchTemplateImageId",
-		"ParameterValue": "ami-03eb6185d756497f8"
+		"ParameterValue": "ami-0261755bbcb8c4a84"
 	}
 ]
