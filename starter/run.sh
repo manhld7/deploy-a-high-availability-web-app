@@ -5,18 +5,18 @@
 #   $1: Execution mode. Valid values: deploy, delete, preview.
 #
 # S3 usage examples:
-#   ./run.sh deploy s3-bucket-stack us-east-1 ./s3-bucket.yml ./s3-bucket-parameters.json 
-#   ./run.sh preview s3-bucket-stack us-east-1 ./s3-bucket.yml ./s3-bucket-parameters.json 
+#   ./run.sh deploy s3-bucket-stack us-east-1 ./s3-bucket.yml ./s3-bucket-parameters.json
+#   ./run.sh preview s3-bucket-stack us-east-1 ./s3-bucket.yml ./s3-bucket-parameters.json
 #   ./run.sh delete s3-bucket-stack us-east-1
 #
 # Network usage examples:
-#   ./run.sh deploy network-stack us-east-1 ./network.yml ./network-parameters.json 
+#   ./run.sh deploy network-stack us-east-1 ./network.yml ./network-parameters.json
 #   ./run.sh preview network-stack us-east-1 ./network.yml ./network-parameters.json 
 #   ./run.sh delete network-stack us
 #
 # Udagram usage examples:
-#   ./run.sh deploy udagram-stack us-east-1 ./udagram.yml ./udagram-parameters.json 
-#   ./run.sh preview udagram-stack us-east-1 ./udagram.yml ./udagram-parameters.json 
+#   ./run.sh deploy udagram-stack us-east-1 ./udagram.yml ./udagram-parameters.json
+#   ./run.sh preview udagram-stack us-east-1 ./udagram.yml ./udagram-parameters.json
 #   ./run.sh delete udagram-stack us-east-1
 #
 

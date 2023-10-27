@@ -59,7 +59,7 @@ Resources:
             apt-get update -y
             apt-get install apache2 -y
             systemctl start apache2.service
-            cd /var/www/html/
+            cd /var/www/html
             echo "it works! Udagram, Udacity" > index.html
   InstanceRole:
     Type: AWS::IAM::Role
@@ -104,6 +104,9 @@ Resources:
       MinSize: '1'
       DesiredCapacity: !Ref AutoScalingDesiredCapacity
       MaxSize: '6'
+      TargetGroupARNs: [
+        !Ref TargetGroup
+      ]
 
   LoadBalancerSecurityGroup:
     Type: AWS::EC2::SecurityGroup
