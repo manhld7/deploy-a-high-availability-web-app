@@ -6,7 +6,7 @@
 `./run.sh deploy s3-bucket-stack us-east-1 ./s3-bucket.yml ./s3-bucket-parameters.json `
 
 #### 2. Create network stack
-`./run.sh deploy s3-bucket-stack us-east-1 ./s3-bucket.yml ./s3-bucket-parameters.json`
+`./run.sh deploy network-stack us-east-1 ./network.yml ./network-parameters.json`
 
 #### 3. Create Udagram stack 
 `./run.sh deploy udagram-stack us-east-1 ./udagram.yml ./udagram-parameters.json `
@@ -33,3 +33,6 @@
 `./run.sh delete udagram-stack us-east-1`
 
 ### Note: When deleting stacks, it will automatically delete the related resources. Important, to delete the S3 bucket, make sure it is empty.
+
+### A URL to verify your work is running properly, it should be a page that says “it works! Udagram, Udacity”
+http://udagra-LoadB-9WlcCEylYJeV-829192555.us-east-1.elb.amazonaws.com
